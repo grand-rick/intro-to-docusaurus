@@ -15,7 +15,7 @@ export default function NotFound() {
         })}
       />
       <Layout>
-        <main className="container margin-vert--xl text-center">
+        <main className="container margin-vert--xl flex-center">
           <div className="row">
             <div className="col col--6 col--offset-3">
               <img src={Error404Image} class="img-fluid" alt="image" />
@@ -23,16 +23,9 @@ export default function NotFound() {
                 <Translate
                   id="theme.NotFound.title"
                   description="The title of the 404 page">
-                  404
-                </Translate>
-              </h1>
-              <p>
-                <Translate
-                  id="theme.NotFound.p1"
-                  description="The first paragraph of the 404 page">
                   UH, OH! YOU'RE LOST!
                 </Translate>
-              </p>
+              </h1>
               <p>
                 <Translate
                   id="theme.NotFound.p2"
