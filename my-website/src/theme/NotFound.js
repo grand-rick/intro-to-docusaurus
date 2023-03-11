@@ -34,7 +34,7 @@ export default function NotFound() {
                 </Translate>
               </p>
               <a href="/">
-                <button className="btn">
+                <button className="btn text-center">
                   <Translate
                     id="theme.NotFound.button"
                     description="Button on the 404 page that redirects to the Homepage">
