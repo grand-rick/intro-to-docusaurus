@@ -15,7 +15,7 @@ export default function NotFound() {
         })}
       />
       <Layout>
-        <main className="container margin-vert--xl">
+        <main className="container margin-vert--xl text-center">
           <div className="row">
             <div className="col col--6 col--offset-3">
               <img src={Error404Image} class="img-fluid" alt="image" />
